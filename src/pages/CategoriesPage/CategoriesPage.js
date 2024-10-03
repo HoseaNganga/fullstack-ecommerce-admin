@@ -163,7 +163,6 @@ const CategoriesPage = () => {
           setCategoryImagePreview([]);
           resolve();
           navigate("/categories");
-          window.location.reload();
         } else {
           reject(new Error(response.error || "An error has occurred"));
         }
