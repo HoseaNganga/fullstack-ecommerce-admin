@@ -125,7 +125,7 @@ const SubCategoriesListPage = () => {
     e.preventDefault();
     const editCategoryPromise = new Promise(async (resolve, reject) => {
       try {
-        const response = await await modifyData(
+        const response = await modifyData(
           `/api/subcategories/${editId}`,
           editSubCategoryFormFields
         );
